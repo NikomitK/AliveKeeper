@@ -14,7 +14,6 @@ public class Main {
 
     public static void ping(int port) throws IOException {
         String FromServer;
-        String ToServer;
         try {
             Socket clientSocket = new Socket("localhost", port);
 
@@ -24,8 +23,7 @@ public class Main {
             BufferedReader inFromServer = new BufferedReader(new InputStreamReader(
                 clientSocket.getInputStream()));
 
-            ToServer = "How are you?";
-            outToServer.println(ToServer);
+            outToServer.println("How are you?");
 
             FromServer = inFromServer.readLine();
             System.out.println(FromServer);
