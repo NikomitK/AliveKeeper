@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="AliveKeeper:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/AliveKeeper_jar</output-path>
-    <root id="archive" name="AliveKeeper.jar">
-      <element id="module-output" name="AliveKeeper" />
-    </root>
-  </artifact>
-</component>
