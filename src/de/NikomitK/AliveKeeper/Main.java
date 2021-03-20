@@ -1,3 +1,5 @@
+package de.NikomitK.AliveKeeper;
+
 import java.io.*;
 import java.net.Socket;
 
@@ -30,7 +32,8 @@ public class Main {
         }
         catch(Exception e){
             Runtime.getRuntime().exec("java -jar RaspiOpener.jar");
-            System.out.println("CALL AN AMBULANCE, CALL AN AMBULANCE!");
+            System.out.println("Server is offline :/");
+            System.out.println("Restarting the server :)");
         }
     }
 
